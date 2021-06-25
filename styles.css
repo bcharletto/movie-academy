@@ -339,7 +339,7 @@ a{
     color: #FFFFFF;
 }
 
-ul{
+.listmovies{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -350,42 +350,25 @@ ul{
     width: 100%;
 }
 
-li {
+.peliculas {
     float: left;
     min-width: 91.61px;    
     height: 11.307rem;
     transition: .2s;
 }
-li:hover {
+.peliculas:hover {
     transform: scale(1.5); 
 }
-li:active{
+.peliculas:active{
     transform: scale(1.35);
 }
 img:hover{
     box-shadow: 0 2px 4px  rgb(0, 0, 0);
 }
 
-ul li::marker{
+.listmovies .peliculas ::marker{
     font-size: 0px;
 }
-
-footer{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    top: 88.375rem;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-
 
 @media only screen and (min-width: 768px) {
     .deviceslist {
