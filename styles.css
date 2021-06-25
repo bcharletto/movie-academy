@@ -219,6 +219,171 @@ button:active {
 button:hover {
     opacity: 0.8
 }
+.container-home{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 19.438rem 22.125rem 48.438rem;
+    grid-template-areas:"fondo"
+                        "buttons"
+                        "movies";
+}
+
+#fondo{
+   
+    grid-area: fondo;
+}
+.imagenfondo{
+    
+    width: 100vw;
+}
+
+#buttons{
+    grid-area: buttons;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%,
+    rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+}
+
+#movies{
+    grid-area: movies;
+    overflow-y: hidden;
+    background: rgb(0, 0, 0);
+}
+
+#genero{
+    position: absolute;
+    margin: 85px 0 0 0;   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2369px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+nav{
+    cursor: default;
+}
+a{
+    padding: 15px;
+}
+
+#movy{
+    position: absolute;
+    height: 19px;
+    left: 14.92%;
+    right: 14.92%;
+    top: 445px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.746667px;
+    color: #0578FF;
+}
+#rectangle{   
+    width: 15.5rem;
+    height: 28px;
+    border-radius: 5px; 
+    position: absolute;
+    top: 27.5rem;  
+    background: #0578FF;    
+    opacity: 0.29;    
+}
+
+#botones{
+    position: absolute;
+    display: flex;
+    top: 32.563rem;
+    cursor: pointer;
+}
+#nombrebotones{
+    position: absolute;
+    display: flex;
+    top: 568px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2369px;
+    line-height: 19px;
+    cursor: default;
+}
+
+.plus, .play, .info{
+    margin: 0 35px;
+    color: #FFFFFF;  
+    font-size: 36px; 
+}
+
+#plus{
+    margin: 0 34px 0 20px;
+}
+#play{
+    margin: 0 35px 0 30px;
+}
+#info{
+    margin: 0 30px 0 40px ;
+}
+
+#namelist{    
+    margin: 5px 0 24px 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+    color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 100vh;
+    margin: 0 32.13px;
+    padding: 0;
+    height: 11.307rem;
+    width: 100%;
+}
+
+li {
+    float: left;
+    min-width: 91.61px;    
+    height: 11.307rem;
+    transition: .2s;
+}
+li:hover {
+    transform: scale(1.5); 
+}
+li:active{
+    transform: scale(1.35);
+}
+img:hover{
+    box-shadow: 0 2px 4px  rgb(0, 0, 0);
+}
+
+ul li::marker{
+    font-size: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 88.375rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 
 
@@ -269,6 +434,41 @@ button:hover {
     #pass {
         width: 95%;
     }
+    .imagenfondo{
+        width: 0%;
+     }   
+     .bodymovies{
+         background-image: url(/assets/Screen\ Shot\ web.png);
+         background-size: 100%;
+         background-repeat: no-repeat;
+     }
+     .container-home{
+         display: grid;
+         grid-template-columns: 100%;
+         grid-template-rows: 19.438rem 28.813rem 41.75rem;
+     }    
+     #rectangle{
+         top: 35.813rem;
+     }
+     #movy{
+         top: 36.125rem;
+     }
+     #botones {
+         top: 40.813rem;
+     }
+     #nombrebotones {
+         top: 43.813rem;
+     }
+     #genero {
+         margin: 13.125rem 0 0 0;
+     }
+     footer{
+         top: 90.313rem;
+     }
+     #buttons{
+         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%,
+     rgba(0, 0, 0, 0.63));
+     }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -311,5 +511,13 @@ button:hover {
     }
     .loginform {
         margin-top: 11%;
+    }
+    #buttons{
+        background: none;
+    }
+    
+    #movies{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%,
+    rgb(0, 0, 0));
     }
 }
