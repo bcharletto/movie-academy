@@ -4,7 +4,6 @@ import {
   Switch,
   Route
    } from 'react-router-dom';
-import IntroPage from './Pages/IntroPage';
 import backgroundImg from '../src/Assets/pexels-erik-mclean-4048090-1.png'
 
 function App() {
