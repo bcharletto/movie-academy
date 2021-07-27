@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Movie Academy</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="background font">
+            <div class="md:relative">
+                <img class="w-full" src="./assets/pexels-erik-mclean-4048090 1.png" alt="img">
+                <button class="button topbutton loginbutton fontcolorwhite"  type="button" >LOGIN</button>
+                <div class="signupform text-center hidden md:absolute md:block">
+                    <form class="flex flex-col items-center">
+                        <label for="name"></label>
+                        <input class="inputt pl-2.5 font-bold font14px lineheight16" id="name" type="name" placeholder="Name" name="name">
+        
+                        <label for="country"></label>
+                        <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" id="country" type="country" placeholder="Country" name="country">
+                       
+                        <label for="password"></label>
+                        <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" id="password" type="password" placeholder="Password" name="password">
+        
+                        <label for="confirmpassword"></label>
+                        <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" id="confirmpassword" type="confirmpassword" placeholder="Confirm Password" name="confirmpassword">
+                    </form>
+                </div>
+            </div>
+            <div class="signupform text-center md:hidden">
+                <form class="flex flex-col items-center">
+                    <label for="name"></label>
+                    <input class="inputt pl-2.5 font-bold font14px lineheight16" type="name" placeholder="Name" name="name">
+    
+                    <label for="country"></label>
+                    <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" type="country" placeholder="Country" name="country">
+                   
+                    <label for="password"></label>
+                    <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" type="password" placeholder="Password" name="password">
+    
+                    <label for="confirmpassword"></label>
+                    <input class="inputt pl-2.5 mt-3.5 font-bold font14px lineheight16" type="confirmpassword" placeholder="Confirm Password" name="confirmpassword">
+                </form>
+            </div>
+            <div class="chooseyourplan fontcolorwhite text-center">
+                <h1 class="font-bold font18px lineheight21">Choose your plan</h1>
+                <p class="hidden xl:block font11px lineheight16 mt-6">Acording with your plan you will have an specific catalogue of movies</p>
+                <p class="xl:hidden font11px lineheight16 mt-6">Acording with your plan you will have an specific</p>
+                <p class="xl:hidden font11px lineheight16">catalogue of movies</p>
+            </div>
+            <div class="checkboxpanel ml-7 fontcolorwhite mt-6">
+                <label class="checkbox"><p class="font-bold font18px lineheight21">Latino +</p> 
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox"><p class="font-bold font18px lineheight21">International +</p> 
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox"><p class="font-bold font18px lineheight21">Art +</p> 
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <div class="mt-14 flex justify-center">
+                <button class="button bottombutton fontcolorwhite" type="button" >SIGN UP NOW</button>
+            </div>
+            <div class="footer fontcolorwhite pb-5">
+                <h3 class="text-sm font-bold text-center">@2021</h3>
+            </div>
+        </main>
+    </body>
+</html>
