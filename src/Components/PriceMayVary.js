@@ -11,3 +11,4 @@ const PriceMayVary = () => {
 }
 
 export default PriceMayVary;
+

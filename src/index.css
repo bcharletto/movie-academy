@@ -130,7 +130,7 @@
 .loginform {
   margin-top: 2.875rem;
 }
-input {
+.inputt {
   background: #FFFFFF;
   border-radius: 5px;
   border: none;
@@ -387,20 +387,11 @@ img:hover{
       top: 15%;
       width: 41%;
   }
-  .checkboxpanel {
-      margin-left: 14.6875rem;
+  #checkboxpanel {
+      margin-left: 21.6875rem;
   }
-  #name {
-      width: 93%;
-  }
-  #country {
-      width: 93%;
-  }
-  #password {
-      width: 93%;
-  }
-  #confirmpassword {
-      width: 93%;
+  .inputt {
+    width: 93%;
   }
   .loginform {
       top: 17%;
@@ -473,19 +464,10 @@ img:hover{
   .loginbutton {
      left: 47%;
   }
-  #name {
-      width: 85%;
+  .inputt {
+    width: 85%;
   }
-  #country {
-      width: 85%;
-  }
-  #password {
-      width: 85%;
-  }
-  #confirmpassword {
-      width: 85%;
-  }
-  .checkboxpanel {
+  #checkboxpanel {
       margin-left: 34.2125rem;
   }
   #rectangulo{
