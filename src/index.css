@@ -75,7 +75,7 @@
   font-size: 0.6875rem;
   font-style: normal;
 }
-#preciomobile {
+#precio {
   margin-top: 0.4375rem;
 }
 #pricemayvary {
@@ -97,9 +97,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1fr 3fr 3fr);
   gap: 3.125rem;
-}
-#precio {
-  margin-top: 1.625rem;
 }
 
 .hrtablet {
@@ -382,6 +379,9 @@ img:hover{
   #panelsignupnow {
       top: 31%;
       width: 40%;
+  }
+  #precio {
+    margin-top: 1.625rem;
   }
   .signupform {
       top: 15%;
