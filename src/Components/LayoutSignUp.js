@@ -15,6 +15,7 @@ const LayoutSignUp = () => {
                     actionName="LOG IN"
                     bottomOrTopBtn="topbutton"
                     signUpOrLogInBtn="loginbutton"
+                    btnType="button"
                 />
                 <SignUpForm
                     hidden="hidden"
@@ -38,6 +39,7 @@ const LayoutSignUp = () => {
                 justifyContent="justify-center"
                 bottomOrTopBtn="bottombutton"
                 actionName="SIGN UP NOW"
+                btnType="submit"
             />
             <Footer
                 footer="footer"

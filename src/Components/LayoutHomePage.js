@@ -44,6 +44,7 @@ const LayoutHomePage = () => {
                         flex="flex"
                         justifyContent="justify-center"
                         xl="xl:mt-20"
+                        btnType="button"
                     />
                     <PriceMayVary />
                 </div>
@@ -52,6 +53,7 @@ const LayoutHomePage = () => {
                   actionName="LOG IN"
                   bottomOrTopBtn="topbutton"
                   signUpOrLogInBtn="loginbutton"
+                  btnType="button"
                 />
             </div>
             <div className="pt-5 text-center md:hidden">
@@ -73,6 +75,7 @@ const LayoutHomePage = () => {
                     margin="mt-4"
                     flex="flex"
                     justifyContent="justify-center"
+                    btnType="button"
                 />
                 <PriceMayVary />
                 <hr className="hrmobile" />
