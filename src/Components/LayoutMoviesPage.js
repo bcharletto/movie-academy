@@ -10,7 +10,7 @@ import Fyre from '../Assets/fyre.png';
 import SexEducation from '../Assets/sex education.png';
 import TidyingUp from '../Assets/tidying up.png';
 import You from '../Assets/you.png';
-import TopRated from './TopRated';
+import RecentlyAdded from './RecentlyAdded';
 
 
 const LayoutMoviesPage = () => {
@@ -89,9 +89,9 @@ const LayoutMoviesPage = () => {
                         </div>
                     </section>
                     <section>
-                        <div id="namelist">Top Rated</div>
+                        <div id="namelist">Recently Added</div>
                         <div className="listmovies"> 
-                            <TopRated />         
+                            <RecentlyAdded />         
                         </div>
                     </section>
                 </div>

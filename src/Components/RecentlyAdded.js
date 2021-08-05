@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router';
-import Movie from '../Components/Movie';
-import {getTopRatedMovie} from '../Api/Movies';
+import Movie from './Movie';
+import {getRecentlyAddedMovie} from '../Api/Movies';
 
-const TopRated = () => {
+const RecentlyAdded = () => {
   const [matches, setMatches] = useState([]); 
   useEffect(() => {
-    getTopRatedMovie()
+    getRecentlyAddedMovie()
       .then((response)=> {
         setMatches(response.results);
         console.log(response)
@@ -26,5 +26,5 @@ return (
   )
 }
 
-export default TopRated;
+export default RecentlyAdded;
 
