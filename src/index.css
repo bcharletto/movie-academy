@@ -339,17 +339,14 @@ a{
 .listmovies{
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  max-width: 100vh;
   margin: 0 32.13px;
   padding: 0;
   height: 11.307rem;
-  width: 100%;
 }
 
 .peliculas {
   float: left;
-  min-width: 91.61px;    
+  min-width: 7.6rem; 
   height: 11.307rem;
   transition: .2s;
 }
@@ -408,13 +405,6 @@ img:hover{
   #pass {
       width: 95%;
   }
-  .imagenfondo{
-      width: 0%;
-   }   
-   .bodymovies{
-       background-size: 100%;
-       background-repeat: no-repeat;
-   }
    .container-home{
        display: grid;
        grid-template-columns: 100%;

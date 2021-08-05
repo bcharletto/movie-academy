@@ -9,9 +9,6 @@ const Form = (props) => {
     event.preventDefault();
     setErrors([]);
     const newErrors = [];
-    if (name === "Julian"){
-      newErrors.push("No quiero saber nada de esa persona");
-    }
     setErrors(newErrors);
   }
 

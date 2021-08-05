@@ -11,6 +11,7 @@ const Devices = ( props ) => {
                 padding={`${props.iconPadding}`}
                 icon={`${props.icon}`}
                 size={`${props.size}`}
+                fasOrFar={`${props.fasOrFar}`}
             />
             <DeviceTitle
                 padding={`${props.titlePadding}`}

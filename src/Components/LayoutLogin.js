@@ -28,8 +28,7 @@ const LayoutLogin = () => {
                 </div>
                 <div class="loginform text-center w-full md:hidden flex justify-center">
                     <LoginForm />
-                </div>
-                
+                </div>                
             </div>
             <Footer
                 footer="footerlogin"
@@ -40,3 +39,4 @@ const LayoutLogin = () => {
 }
 
 export default LayoutLogin;
+

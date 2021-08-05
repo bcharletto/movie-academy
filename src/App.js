@@ -7,6 +7,7 @@ import {
 import HomePage from './Pages/HomePage';
 import SignUpPage from './Pages/SignUpPage';
 import LoginPage from './Pages/LoginPage';
+import MoviesPage from './Pages/MoviesPage';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path='/Login'>
               <LoginPage />
+            </Route>
+            <Route path='/Movies'>
+              <MoviesPage />
             </Route>
         </Switch>
     </Router>

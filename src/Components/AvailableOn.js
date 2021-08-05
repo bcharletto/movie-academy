@@ -8,6 +8,7 @@ const AvailableOn = () => {
             <Devices 
                 icon="fa-tv"
                 size="fa-6x"
+                fasOrFar="fas"
                 titleActionName="TV"
                 titlePadding="pt-6"
                 listActionName1="Fire TV"
@@ -21,6 +22,7 @@ const AvailableOn = () => {
             <Devices 
                 icon="fa-laptop"
                 size="fa-5x"
+                fasOrFar="fas"
                 iconPadding="pt-2"
                 titleActionName="Computer"
                 titlePadding="pt-8"
@@ -35,6 +37,7 @@ const AvailableOn = () => {
             <Devices 
                 icon="fa-mobile-alt"
                 size="fa-4x"
+                fasOrFar="fas"
                 iconPadding="md:pt-6"
                 titleActionName="Mobile & Tablet"
                 titlePadding="pt-6"
@@ -50,6 +53,7 @@ const AvailableOn = () => {
             <Devices 
                 icon="fa-gamepad"
                 size="fa-4x"
+                fasOrFar="fas"
                 iconPadding="md:pt-6"
                 titleActionName="Game Consoles"
                 titlePadding="pt-6"
