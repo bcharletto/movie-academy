@@ -7,4 +7,8 @@ export const getRecentlyAddedMovie = () =>
 fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=35ae0ab849a7893db02cf33f003e017f&language=en-US&page=1`)
     .then(response => response.json());
 
-
+export const getMyListMovie = () =>
+  fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=35ae0ab849a7893db02cf33f003e017f&language=en-US&page=1`)
+        .then(response => response.json());
+    
+    

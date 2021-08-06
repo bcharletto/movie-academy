@@ -5,12 +5,8 @@ import backgroundImg from '../Assets/Screen Shot web.png'
 import Icon from './Icon';
 import Footer from '../Components/Footer'
 import Trending from './Trending';
-import BirdBox from '../Assets/bird box.png';
-import Fyre from '../Assets/fyre.png';
-import SexEducation from '../Assets/sex education.png';
-import TidyingUp from '../Assets/tidying up.png';
-import You from '../Assets/you.png';
 import RecentlyAdded from './RecentlyAdded';
+import MyList from './MyList';
 
 
 const LayoutMoviesPage = () => {
@@ -58,28 +54,7 @@ const LayoutMoviesPage = () => {
                     <section>
                         <div id="namelist">My List</div>
                         <div className="listmovies">
-                            <div className="flex flex-nowrap">
-                                <img className="peliculas" src={You} alt="you " />
-                                <img className="peliculas" src={SexEducation} alt="sex education" />
-                                <img className="peliculas" src={TidyingUp} alt="tidying up" />
-                                <img className="peliculas" src={BirdBox} alt="bird box" />
-                                <img className="peliculas" src={Fyre} alt="fyre" /> 
-                                <img className="peliculas" src={You} alt="you " />
-                                <img className="peliculas" src={SexEducation} alt="sex education" />
-                                <img className="peliculas" src={TidyingUp} alt="tidying up" />
-                                <img className="peliculas" src={BirdBox} alt="bird box" />
-                                <img className="peliculas" src={Fyre} alt="fyre" /> 
-                                <img className="peliculas" src={You} alt="you " />
-                                <img className="peliculas" src={SexEducation} alt="sex education" />
-                                <img className="peliculas" src={TidyingUp} alt="tidying up" />
-                                <img className="peliculas" src={BirdBox} alt="bird box" />
-                                <img className="peliculas" src={Fyre} alt="fyre" /> 
-                                <img className="peliculas" src={You} alt="you " />
-                                <img className="peliculas" src={SexEducation} alt="sex education" />
-                                <img className="peliculas" src={TidyingUp} alt="tidying up" />
-                                <img className="peliculas" src={BirdBox} alt="bird box" />
-                                <img className="peliculas" src={Fyre} alt="fyre" />     
-                            </div>                              
+                            <MyList />
                         </div>
                     </section>
                     <section>
