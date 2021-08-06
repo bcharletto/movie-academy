@@ -38,6 +38,7 @@ const LayoutHomePage = () => {
                      fontWeight="font-normal"  
                     />
                     <Button
+                        link="/signup"
                         actionName="SIGN UP NOW"
                         bottomOrTopBtn="bottombutton"
                         margin="mt-4"
@@ -50,10 +51,11 @@ const LayoutHomePage = () => {
                 </div>
                 <img className="w-full" src={backgroundImg} alt="img" />
                 <Button
-                  actionName="LOG IN"
-                  bottomOrTopBtn="topbutton"
-                  signUpOrLogInBtn="loginbutton"
-                  btnType="button"
+                    link="/login"
+                    actionName="LOG IN"
+                    bottomOrTopBtn="topbutton"
+                    signUpOrLogInBtn="loginbutton"
+                    btnType="button"
                 />
             </div>
             <div className="pt-5 text-center md:hidden">
@@ -70,6 +72,7 @@ const LayoutHomePage = () => {
                     fontWeight="font-normal"  
                 />
                 <Button
+                    link="/signup"
                     actionName="SIGN UP NOW"
                     bottomOrTopBtn="bottombutton"
                     margin="mt-4"

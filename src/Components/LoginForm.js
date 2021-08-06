@@ -32,6 +32,7 @@ const LoginForm = (props) => {
                 margin="mt-3.5"
             />
             <Button
+                link="/movies"
                 actionName="LOG IN NOW"
                 bottomOrTopBtn="bottombutton"
                 btnType="submit"

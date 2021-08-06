@@ -17,6 +17,7 @@ const LayoutLogin = () => {
                     </div>
                 </div>
                 <Button
+                    link="/signup"
                     actionName="SIGN UP"
                     bottomOrTopBtn="topbutton"
                     signUpOrLogInBtn="signupbutton"

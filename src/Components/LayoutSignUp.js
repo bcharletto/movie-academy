@@ -12,6 +12,7 @@ const LayoutSignUp = () => {
             <div className="md:relative">
                 <img className="w-full" src={backgroundImg} alt="img" />
                 <Button
+                    link="/login"
                     actionName="LOG IN"
                     bottomOrTopBtn="topbutton"
                     signUpOrLogInBtn="loginbutton"
@@ -34,6 +35,7 @@ const LayoutSignUp = () => {
             </div>
             <CheckBoxPanel/>
             <Button
+                link="/login"
                 margin="mt-14"
                 flex="flex"
                 justifyContent="justify-center"
