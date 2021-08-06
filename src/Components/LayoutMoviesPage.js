@@ -74,6 +74,7 @@ const LayoutMoviesPage = () => {
             <Footer
                 bg="bg-black"
                 paddingBottom="pb-5"
+                footer="footermovies"
             />
         </main>
     )

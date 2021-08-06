@@ -297,25 +297,25 @@
     "@types/yargs" "^15.0.0"
     "chalk" "^4.0.0"
 
-"@nodelib/fs.scandir@2.1.4":
-  "integrity" "sha512-33g3pMJk3bg5nXbL/+CY6I2eJDzZAni49PfJnL5fghPTggPvBd/pFNSgJsdAgWptuFu7qq/ERvOYFlhvsLTCKA=="
-  "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz"
-  "version" "2.1.4"
+"@nodelib/fs.scandir@2.1.5":
+  "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
+  "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
+  "version" "2.1.5"
   dependencies:
-    "@nodelib/fs.stat" "2.0.4"
+    "@nodelib/fs.stat" "2.0.5"
     "run-parallel" "^1.1.9"
 
-"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.4":
-  "integrity" "sha512-IYlHJA0clt2+Vg7bccq+TzRdJvv19c2INqBSsoOLp1je7xjtr7J26+WXR72MCdvU9q1qTzIWDfhMf+DRvQJK4Q=="
-  "resolved" "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.4.tgz"
-  "version" "2.0.4"
+"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+  "integrity" "sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A=="
+  "resolved" "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
+  "version" "2.0.5"
 
 "@nodelib/fs.walk@^1.2.3":
-  "integrity" "sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow=="
-  "resolved" "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.6.tgz"
-  "version" "1.2.6"
+  "integrity" "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="
+  "resolved" "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz"
+  "version" "1.2.8"
   dependencies:
-    "@nodelib/fs.scandir" "2.1.4"
+    "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
 "@testing-library/dom@^7.28.1", "@testing-library/dom@>=7.21.4":
@@ -4243,9 +4243,9 @@
   "version" "1.1.2"
 
 "fastq@^1.6.0":
-  "integrity" "sha512-AWuv6Ery3pM+dY7LYS8YIaCiQvUaos9OB1RyNgaOWnaX+Tik7Onvcsf8x8c+YtDeT0maYLniBip2hox5KtEXXA=="
-  "resolved" "https://registry.npmjs.org/fastq/-/fastq-1.10.1.tgz"
-  "version" "1.10.1"
+  "integrity" "sha512-HOnr8Mc60eNYl1gzwp6r5RoUyAn5/glBolUzP/Ez6IFVPMPirxn/9phgL6zhOtaTy7ISwPvQ+wT+hfcRZh/bzw=="
+  "resolved" "https://registry.npmjs.org/fastq/-/fastq-1.11.1.tgz"
+  "version" "1.11.1"
   dependencies:
     "reusify" "^1.0.4"
 
@@ -8186,9 +8186,9 @@
   "version" "2.2.0"
 
 "queue-microtask@^1.2.2":
-  "integrity" "sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg=="
-  "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.2.tgz"
-  "version" "1.2.2"
+  "integrity" "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A=="
+  "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
+  "version" "1.2.3"
 
 "quick-lru@^5.1.1":
   "integrity" "sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA=="

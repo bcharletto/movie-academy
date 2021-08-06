@@ -425,8 +425,10 @@ img:hover{
    #genero {
        margin: 13.125rem 0 0 0;
    }
-   footer{
-       top: 90.313rem;
+   .footermovies{
+       text-align: center;
+       position: relative;
+       top: 92.313rem;
    }
    #buttons{
        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%,
