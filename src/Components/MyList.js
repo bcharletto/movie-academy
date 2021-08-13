@@ -11,7 +11,6 @@ const MyList = () => {
         setMatches(response.results);
         console.log(response)
       })
-      .catch();
   }, []);
 
 return (

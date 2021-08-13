@@ -81,3 +81,5 @@ const LayoutMoviesPage = () => {
 }
 
 export default LayoutMoviesPage;
+
+
