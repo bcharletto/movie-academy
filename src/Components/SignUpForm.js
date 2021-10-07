@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import '../index.css'
 import Form from './Form';
 
@@ -10,8 +10,8 @@ const SignUpForm = (props) => {
     event.preventDefault();
     setErrors([]);
     const newErrors = [];
-    if (name === "Julian"){
-      newErrors.push("No quiero saber nada de esa persona");
+    if (name === "Pepito"){
+      newErrors.push("Pepito ya esta registrado");
     }
     setErrors(newErrors);
   }
