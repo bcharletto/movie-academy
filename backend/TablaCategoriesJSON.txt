@@ -1,0 +1,17 @@
+JSONS DE LAS CATEGORIAS:
+Tabla: categories
+Columnas: id(bigint[pk, not null]),
+          name(character varying(200)[not null])
+
+{
+    id: '1',
+    name: 'My List'
+},
+{
+    id: '2',
+    name: 'Trending'
+},
+{
+    id: '3',
+    name: 'Recently Added'
+}

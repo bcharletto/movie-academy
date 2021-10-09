@@ -1,4 +1,11 @@
 JSONS DE LAS PELICULAS:
+Tabla: movies
+Columnas: id(bigint[pk, not null]),
+          name(character varying(200)[not null]),
+          category_id(bigint [not null]) ,
+          poster_path(character varying(200)[not null])
+Constraints: ForeignKey = category_id, {columns: (category_id) -> (id)}, {referenced table: public.categories}.
+         
   {
     id: '1',
     name: 'Dilwale Dulhania Le Jayenge',
