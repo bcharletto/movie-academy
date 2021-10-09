@@ -2,3 +2,4 @@ Luego de dar npm i en la carpeta principal (donde está el front end), hay que a
  En dependencies agregar "webpack": "4.42.0"
  En devDependencies agregar "webpack": "4.42.0".
 NO BORRAR ARCHIVO .env
+IMPORTANTE: Dentro de la carpeta backend, se encuentran los archivos (.txt) donde están los JSON correspondientes para la base de datos

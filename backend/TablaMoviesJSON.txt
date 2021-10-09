@@ -1,4 +1,5 @@
-movies: {
+JSONS DE LAS PELICULAS:
+  {
     id: '1',
     name: 'Dilwale Dulhania Le Jayenge',
     category_id: '1',
