@@ -1,0 +1,4 @@
+Luego de dar npm i en la carpeta principal (donde está el front end), hay que agregar manualmente en package-lock.json y en package.json esta dependecia:
+ En dependencies agregar "webpack": "4.42.0"
+ En devDependencies agregar "webpack": "4.42.0".
+NO BORRAR ARCHIVO .env
