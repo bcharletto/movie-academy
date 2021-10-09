@@ -23,11 +23,11 @@ const LayoutLogin = () => {
                     signUpOrLogInBtn="signupbutton"
                     btnType="button"
                 />
-                <div class="loginform text-center hidden md:absolute md:block">
+                <div className="loginform text-center hidden md:absolute md:block">
                     <img id="rectangulo" src={rectangleImg} alt="rectangle" />
                     <LoginForm />
                 </div>
-                <div class="loginform text-center w-full md:hidden flex justify-center">
+                <div className="loginform text-center w-full md:hidden flex justify-center">
                     <LoginForm />
                 </div>                
             </div>

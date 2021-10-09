@@ -1,0 +1,360 @@
+movies: {
+    id: '1',
+    name: 'Dilwale Dulhania Le Jayenge',
+    category_id: '1',
+    poster_path: '/2CAL2433ZeIihfX1Hb2139CX0pW.jpg'
+  },
+  {
+    id: '2',
+    name: 'The Shawshank Redemption',
+    category_id: '1',
+    poster_path: '/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg'
+  },
+  {
+    id: '3',
+    name: 'The Godfather',
+    category_id: '1',
+    poster_path: '/3bhkrj58Vtu7enYsRolD1fZdja1.jpg'
+  },
+  {
+    id: '4',
+    name: 'Gabriel`s Inferno Part II',
+    category_id: '1',
+    poster_path: '/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg'
+  },
+  {
+    id: '5',
+    name: 'Evangelion: 3.0+1.0 Thrice Upon a Time',
+    category_id: '1',
+    poster_path: '/jDwZavHo99JtGsCyRzp4epeeBHx.jpg'
+  },
+  {
+    id: '6',
+    name: 'Gabriel`s Inferno Part III',
+    category_id: '1',
+    poster_path: '/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg'
+  },
+  {
+    id: '7',
+    name: 'Gabriel`s Inferno',
+    category_id: '1',
+    poster_path: '/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg'
+  },
+  {
+    id: '8',
+    name: 'Schindler`s List',
+    category_id: '1',
+    poster_path: '/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg'
+  },
+  {
+    id: '9',
+    name: 'Given',
+    category_id: '1',
+    poster_path: '/xKCtoYHUyX8zAg68eemnYa2orep.jpg'
+  },
+  {
+    id: '10',
+    name: 'The Godfather: Part II',
+    category_id: '1',
+    poster_path: '/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg'
+  },
+  {
+    id: '11',
+    name: 'Your Name.',
+    category_id: '1',
+    poster_path: '/q719jXXEzOoYaps6babgKnONONX.jpg'
+  },
+  {
+    id: '12',
+    name: 'Spirited Away',
+    category_id: '1',
+    poster_path: '/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg'
+  },
+  {
+    id: '13',
+    name: 'Parasite',
+    category_id: '1',
+    poster_path: '/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg'
+  },
+  {
+    id: '14',
+    name: 'Hope',
+    category_id: '1',
+    poster_path: '/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg'
+  },
+  {
+    id: '15',
+    name: 'The Green Mile',
+    category_id: '1',
+    poster_path: '/velWPhVMQeQKcxggNEU8YmIo52R.jpg'
+  },
+  {
+    id: '16',
+    name: 'Wolfwalkers',
+    category_id: '1',
+    poster_path: '/ehAKuE48okTuonq6TpsNQj8vFTC.jpg'
+  },
+  {
+    id: '17',
+    name: '12 Angry Men',
+    category_id: '1',
+    poster_path: '/e02s4wmTAExkKg0yF4dEG98ZRpK.jpg'
+  },
+  {
+    id: '18',
+    name: 'My Hero Academia: Heroes Rising',
+    category_id: '1',
+    poster_path: '/zGVbrulkupqpbwgiNedkJPyQum4.jpg'
+  },
+  {
+    id: '19',
+    name: 'Black Beauty',
+    category_id: '1',
+    poster_path: '/5ZjMNJJabwBEnGVQoR2yoMEL9um.jpg'
+  },
+  {
+    id: '20',
+    name: 'Pulp Fiction',
+    category_id: '1',
+    poster_path: '/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg'
+  },
+  {
+    id: '21',
+    name: 'Squid Game',
+    category_id: '2',
+    poster_path: '/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg'
+  },
+  {
+    id: '22',
+    name: 'Free Guy',
+    category_id: '2',
+    poster_path: '/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg'
+  },
+  {
+    id: '23',
+    name: 'Venom: Let There Be Carnage',
+    category_id: '2',
+    poster_path: '/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg'
+  },
+  {
+    id: '24',
+    name: 'No Time to Die',
+    category_id: '2',
+    poster_path: '/eqWaeh21e4ZgHjwpULZVHCGIq9X.jpg'
+  },
+  {
+    id: '25',
+    name: 'The Guilty',
+    category_id: '2',
+    poster_path: '/m8aR1k35oZMOzZ1kYWUyt401mwq.jpg'
+  },
+  {
+    id: '26',
+    name: 'Foundation',
+    category_id: '2',
+    poster_path: '/A1fXGFxDifQzj08OlaGTVcnXHyd.jpg'
+  },
+  {
+    id: '27',
+    name: 'What If...?',
+    category_id: '2',
+    poster_path: '/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg'
+  },
+  {
+    id: '28',
+    name: 'The Addams Family 2',
+    category_id: '2',
+    poster_path: '/xYLBgw7dHyEqmcrSk2Sq3asuSq5.jpg'
+  },
+  {
+    id: '29',
+    name: 'The Many Saints of Newark',
+    category_id: '2',
+    poster_path: '/1UkbPQspPbq1FPbFP4VV1ELCfSN.jpg'
+  },
+  {
+    id: '30',
+    name: 'F9',
+    category_id: '2',
+    poster_path: '/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg'
+  },
+  {
+    id: '31',
+    name: 'The Night House',
+    category_id: '2',
+    poster_path: '/rqs2CXpc4d5FzeP1EZCYItAVo81.jpg'
+  },
+  {
+    id: '32',
+    name: 'Black Widow',
+    category_id: '2',
+    poster_path: '/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg'
+  },
+  {
+    id: '33',
+    name: 'Money Heist',
+    category_id: '2',
+    poster_path: '/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg'
+  },
+  {
+    id: '34',
+    name: 'Dune',
+    category_id: '2',
+    poster_path: '/s1FhMAr91WL8D5DeHOcuBELtiHJ.jpg'
+  },
+  {
+    id: '35',
+    name: 'Old',
+    category_id: '2',
+    poster_path: '/vclShucpUmPhdAOmKgf3B3Z4POD.jpg'
+  },
+  {
+    id: '36',
+    name: 'Malignant',
+    category_id: '2',
+    poster_path: '/dGv2BWjzwAz6LB8a8JeRIZL8hSz.jpg'
+  },
+  {
+    id: '37',
+    name: 'Jungle Cruise',
+    category_id: '2',
+    poster_path: '/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg'
+  },
+  {
+    id: '38',
+    name: 'Shang-Chi and the Legend of the Ten Rings',
+    category_id: '2',
+    poster_path: '/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg'
+  },
+  {
+    id: '39',
+    name: 'Escape Room: Tournament of Champions',
+    category_id: '2',
+    poster_path: '/jGYJyPzVgrVV2bgClI9uvEZgVLE.jpg'
+  },
+  {
+    id: '40',
+    name: 'The Suicide Squad',
+    category_id: '2',
+    poster_path: '/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg'
+  },
+  {
+    id: '42',
+    name: 'Free Guy',
+    category_id: '3',
+    poster_path: '/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg'
+  },
+  {
+    id: '41',
+    name: 'Venom: Let There Be Carnage',
+    category_id: '3',
+    poster_path: '/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg'
+  },
+  {
+    id: '58',
+    name: 'No Time to Die',
+    category_id: '3',
+    poster_path: '/eqWaeh21e4ZgHjwpULZVHCGIq9X.jpg'
+  },
+  {
+    id: '47',
+    name: 'The Addams Family 2',
+    category_id: '3',
+    poster_path: '/xYLBgw7dHyEqmcrSk2Sq3asuSq5.jpg'
+  },
+  {
+    id: '48',
+    name: 'F9',
+    category_id: '3',
+    poster_path: '/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg'
+  },
+  {
+    id: '46',
+    name: 'Jungle Cruise',
+    category_id: '3',
+    poster_path: '/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg'
+  },
+  {
+    id: '44',
+    name: 'Shang-Chi and the Legend of the Ten Rings',
+    category_id: '3',
+    poster_path: '/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg'
+  },
+  {
+    id: '43',
+    name: 'Snake Eyes: G.I. Joe Origins',
+    category_id: '3',
+    poster_path: '/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg'
+  },
+  {
+    id: '45',
+    name: 'Solitary',
+    category_id: '3',
+    poster_path: '/ApwmbrMlsuOay5rXQA4Kbz7qJAl.jpg'
+  },
+  {
+    id: '49',
+    name: 'Ainbo: Spirit of the Amazon',
+    category_id: '3',
+    poster_path: '/l8HyObVj8fPrzacAPtGWWLDhcfh.jpg'
+  },
+  {
+    id: '50',
+    name: 'Catch the Bullet',
+    category_id: '3',
+    poster_path: '/qKxrBZ8Ts4KHZKp7BT6GAVMLFO2.jpg'
+  },
+  {
+    id: '51',
+    name: 'The Boss Baby: Family Business',
+    category_id: '3',
+    poster_path: '/uWStkK8bq9ixY3fc7y209ZleCoF.jpg'
+  },
+  {
+    id: '52',
+    name: 'My Little Pony: A New Generation',
+    category_id: '3',
+    poster_path: '/hzq5XRGgm6NDMOW1idUvbpGqEkv.jpg'
+  },
+  {
+    id: '53',
+    name: 'PAW Patrol: The Movie',
+    category_id: '3',
+    poster_path: '/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg'
+  },
+  {
+    id: '54',
+    name: 'Don`t Breathe 2',
+    category_id: '3',
+    poster_path: '/hRMfgGFRAZIlvwVWy8DYJdLTpvN.jpg'
+  },
+  {
+    id: '55',
+    name: 'Kate',
+    category_id: '3',
+    poster_path: '/uJgdT1boTSP0dDIjdTgGleg71l4.jpg'
+  },
+  {
+    id: '56',
+    name: 'Space Jam: A New Legacy',
+    category_id: '3',
+    poster_path: '/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg'
+  },
+  {
+    id: '57',
+    name: 'After We Fell',
+    category_id: '3',
+    poster_path: '/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg'
+  },
+  {
+    id: '59',
+    name: 'The Courier',
+    category_id: '3',
+    poster_path: '/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg'
+  },
+  {
+    id: '60',
+    name: 'Wrath of Man',
+    category_id: '3',
+    poster_path: '/M7SUK85sKjaStg4TKhlAVyGlz3.jpg'
+  }

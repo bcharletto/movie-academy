@@ -4,11 +4,11 @@ import Movie from '../Components/Movie';
 import {getTrendingMovie} from '../Api/Movies';
 
 const Trending = () => {
-  const [matches, setMatches] = useState([]); 
+  const [movies, setMovies] = useState([]); 
   useEffect(() => {
     getTrendingMovie()
       .then((response)=> {
-        setMatches(response.results);
+        setMovies(response.results);
         console.log(response)
       })
       .catch();
@@ -16,10 +16,10 @@ const Trending = () => {
 
 return (
     <div className="flex flex-nowrap">
-      {matches.map(item => 
+      {movies?.map(movie => 
         <Movie
-          key={item.id}
-          img={item.poster_path}
+          key={movie.id}
+          img={movie.poster_path}
         />
       )}
     </div>
