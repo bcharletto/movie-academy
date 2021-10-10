@@ -1,17 +1,12 @@
 JSONS DE LAS CATEGORIAS:
+Nombre de la base de datos: movieacademy
 Tabla: categories
 Columnas: id(bigint[pk, not null]),
-          name(character varying(200)[not null])
+          name(character varying(200)[not null]
 
-{
-    id: '1',
-    name: 'My List'
-},
-{
-    id: '2',
-    name: 'Trending'
-},
-{
-    id: '3',
-    name: 'Recently Added'
-}
+INSERT INTO categories(id, name)
+VALUES 
+(1, 'My List'),
+(2, 'Trending'),
+(3, 'Recently Added')
+

@@ -5,16 +5,12 @@ import Button from './Button';
 
 
 const LoginForm = (props) => {
-    const [name, setName] = useState();
     const [errors, setErrors] = useState([]);
   
     const handleSubmit =(event) => {
       event.preventDefault();
       setErrors([]);
       const newErrors = [];
-      if (name === "Pepito"){
-        newErrors.push("Pepito no esta registrado");
-      }
       setErrors(newErrors);
     }
 
