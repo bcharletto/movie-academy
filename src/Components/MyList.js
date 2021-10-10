@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import Movie from '../Components/Movie';
-import {getMyListMovie} from '../Api/Movies';
+import {getMyListMovie} from '../Api/MyList';
 
 function MyList () {
   const [movies, setMovies] = useState([]); 
   useEffect(() => {
     getMyListMovie()
       .then((response)=> {
-        setMovies(response.results);
+        setMovies(response);
         console.log(response)
       })
   }, []);
