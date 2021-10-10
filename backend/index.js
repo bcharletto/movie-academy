@@ -36,7 +36,6 @@ app.get('/recently_added', async (request, response) => {
   response.json(result);
 })
 
-
 app.listen(5001, () => {
   console.log('Server is working');
 })
